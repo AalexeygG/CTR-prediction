@@ -1,0 +1,14 @@
+venv/
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+.env
+
+# личное, черновики и старые версии
+local/
+
+# данные и обученные модели
+datasets/*
+!datasets/.gitkeep
+models/
